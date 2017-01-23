@@ -6,7 +6,7 @@ namespace _05.GitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Develop");
         }
     }
 }
