@@ -7,7 +7,12 @@ namespace _05.GitHub
         static void Main()
         {
 			var i = 0;
-			Console.WriteLine("My number is" + ); 
+			Console.WriteLine("My number is" + i); 
+
+
+
+
+            //Commentar
         }
     }
 }
