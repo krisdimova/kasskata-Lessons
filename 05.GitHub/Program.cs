@@ -4,9 +4,10 @@ namespace _05.GitHub
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Develop");
+			var i = 0;
+			Console.WriteLine("My number is" + ); 
         }
     }
 }
