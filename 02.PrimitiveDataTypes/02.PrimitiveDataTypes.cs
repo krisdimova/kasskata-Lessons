@@ -5,7 +5,7 @@
         static void Main()
         {
             // Целочислени.
-            byte @byte = 255; // Smallest: 0 - 255 0 / 255 / когато превърти заочва от нулата
+            byte @byte = 255; // Smallest: 0 - 255 0 / 255 / когато превърти заочва от Zero 
 
             sbyte @sbyte = -128; // Smallest with negative numbers -128 / 127
 

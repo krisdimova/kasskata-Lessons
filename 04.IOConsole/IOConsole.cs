@@ -9,7 +9,7 @@ namespace _04.IOConsole
 
         static void Main()
         {
-            Console.WriteLine("{0:c}");
+            Console.WriteLine("{0:c} ");
             var str = Console.ReadLine();
 
             for (int i = 0; i < 20000; i++)

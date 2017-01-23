@@ -5,7 +5,8 @@
     class Intro
     {
         static void Main()
-        { 
+        {
+            Console.WriteLine("Hello");
         }
     }
 }
