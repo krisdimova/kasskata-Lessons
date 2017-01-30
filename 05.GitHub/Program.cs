@@ -6,6 +6,7 @@ namespace _05.GitHub
     {
         static void Main()
         {
-            Console.WriteLine("Clean Code");        }
+            Console.WriteLine("Clean Code");
+        }
     }
 }
