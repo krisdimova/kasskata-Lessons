@@ -1,13 +1,12 @@
 ﻿namespace _07.Loops
 {
     using System;
-    using System.Linq;
 
     class Loops
     {
         static void Main()
         {
-            //FindMinNumber(); // 01
+            FindMinNumber(); // 01
             //RepeatString();  // 02
             //NthDigit();      // 03
 
@@ -33,12 +32,12 @@
             //}
             //while (i < 12);
 
-            foreach (int @char in "Pesho")
-            {
-                Console.Write((char)(@char + 9) + " ");
-            }
+            //foreach (int @char in "Pesho")
+            //{
+            //    Console.Write((char)(@char + 9) + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
         }
 
         private static void NthDigit()
@@ -85,11 +84,21 @@
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
+            int d = int.Parse(Console.ReadLine());
+            int e = int.Parse(Console.ReadLine());
+            int f = int.Parse(Console.ReadLine());
+            int g = int.Parse(Console.ReadLine());
+            int h = int.Parse(Console.ReadLine());
+            int i = int.Parse(Console.ReadLine());
 
-            int minNumber = 0;
-
-            minNumber = GetMin(a, c);
-            minNumber = GetMin(b, minNumber);
+            int minNumber = GetMin(a, b);
+            minNumber = GetMin(c, minNumber);
+            minNumber = GetMin(d, minNumber);
+            minNumber = GetMin(e, minNumber);
+            minNumber = GetMin(f, minNumber);
+            minNumber = GetMin(g, minNumber);
+            minNumber = GetMin(h, minNumber);
+            minNumber = GetMin(i, minNumber);
 
             Console.WriteLine(minNumber);
         }
@@ -110,5 +119,9 @@
             }
         }
 
+        //     
+        static void GetMinNumber(int first, int second) // 0 или повече Параметри/Аргументи
+        {
+        }
     }
 }
